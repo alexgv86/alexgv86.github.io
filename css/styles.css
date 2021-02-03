@@ -1,11 +1,14 @@
 header, footer {
 	background-color: #be5749;
+	margin: 0;
 }
 main {
 	background-color: #2c7887;
+	margin: 0;
 }
 
 h1 {
 	text-align:center;
 	color: #3b8cde;
+	margin: 0;
 }
