@@ -1,6 +1,5 @@
 header, footer {
 	background-color: #be5749;
-	margin: 0;
 	box-shadow: 0px 0px 20px 5px #333;
 }
 body {
@@ -9,6 +8,11 @@ body {
 
 h1 {
 	text-align: center;
-	color: #2c7887;
-	margin: 0;
+	color: #FFF;
+	font-weight: bold;
+}
+
+footer p {
+	text-align: right;
+	font-weight: bold;
 }
