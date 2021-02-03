@@ -3,7 +3,7 @@ header, footer {
 	box-shadow: 0px 0px 20px 5px #333;
 }
 
-header a {
+header .w3-dropdown-content {
 	background-color: #be5749;
 	color: #FFF;
 }
