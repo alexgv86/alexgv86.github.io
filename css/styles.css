@@ -1,8 +1,8 @@
-header footer {
+header, footer {
 	background-color: #be5749;
 }
 main {
-	background-color: #478a42;
+	background-color: #2c7887;
 }
 
 h1 {
