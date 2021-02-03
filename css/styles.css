@@ -1,6 +1,11 @@
-header {
+header footer {
 	background-color: #be5749;
 }
-main{
+main {
 	background-color: #478a42;
+}
+
+h1 {
+	text-align:center;
+	color: #3b8cde;
 }
