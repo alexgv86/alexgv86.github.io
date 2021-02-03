@@ -2,6 +2,11 @@ header, footer {
 	background-color: #be5749;
 	box-shadow: 0px 0px 20px 5px #333;
 }
+
+header a {
+	background-color: #be5749;
+	color: #FFF;
+}
 body {
 	background-color: #3b8cde;
 }
