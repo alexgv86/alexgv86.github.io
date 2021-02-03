@@ -1,8 +1,11 @@
 header, footer {
 	background-color: #be5749;
+	margin: 0;
+	box-shadow: 5px 5px 5px black;
 }
 main {
 	background-color: #2c7887;
+	margin: 0;
 }
 
 h1 {
