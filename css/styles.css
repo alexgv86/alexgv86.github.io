@@ -6,7 +6,7 @@ header, footer {
 header .w3-dropdown-content {
 	background-color: #be5749;
 	color: #FFF;
-	align-items:center;
+	justify-content:center;
 }
 	header .w3-dropdown-content a {
 		width: 90%;
