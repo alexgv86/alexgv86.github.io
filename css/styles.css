@@ -7,9 +7,12 @@ header .w3-dropdown-content {
 	background-color: #be5749;
 	color: #FFF;
 }
-	header .w3-dropdown-content a:hover{
-		padding: 2%;
+	header .w3-dropdown-content a {
+		padding: 5px;
 		box-shadow: 0 0 20px 5px #333;
+	}
+	header .w3-dropdown-content a:hover{
+		padding: 5px;
 	}
 body {
 	background-color: #3b8cde;
