@@ -6,13 +6,14 @@ header, footer {
 header .w3-dropdown-content {
 	background-color: #be5749;
 	color: #FFF;
+	align-items:center;
 }
 	header .w3-dropdown-content a {
-		width: 80%;
+		width: 90%;
 	}
 		header .w3-dropdown-content a:hover {
-			width: 80%;
-			box-shadow: 0 0 20px 5px #333;
+			width: 90%;
+			box-shadow: 0 0 20px 5px #444;
 		}
 body {
 	background-color: #3b8cde;
