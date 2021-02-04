@@ -31,6 +31,10 @@ main .w3-container {
 	background-color: #FFF;
 }
 
+main .w3-container p {
+	padding: 5px;
+}
+
 h1 {
 	text-align: center;
 	color: #FFF;
