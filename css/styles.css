@@ -27,11 +27,8 @@ body {
 	background-color: #3b8cde;
 }
 
-main .w3-container {
-	background-color: #FFF;
-}
-
 main .w3-container p {
+	color: #FFF;
 	padding: 5px;
 }
 
