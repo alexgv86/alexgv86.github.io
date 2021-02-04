@@ -6,6 +6,7 @@ header, footer {
 
 	header .w3-button:hover {
 		background-color: #3b8cde !important;
+		box-shadow: 0px 2px 15px 2px #333;
 	}
 	
 	header .w3-dropdown-content {
