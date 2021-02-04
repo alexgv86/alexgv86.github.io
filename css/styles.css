@@ -29,7 +29,7 @@ h1 {
 	text-align: center;
 	color: #FFF;
 	font-weight: bold;
-	animation-duration: 5s;
+	animation-duration: 10s !important;
 }
 
 footer p {
