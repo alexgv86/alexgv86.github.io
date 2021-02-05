@@ -16,6 +16,7 @@ body .w3-sidebar-4 a {
 
 body .w3-sidebar-4 a:hover, body .w3-sidebar-4 button:hover {
 	background-color: #3b8cde !important;
+	box-shadow: 2px 4px 15px 2px #333;
 }
 
 body .w3-sidebar-4 button:hover > .fa-times:hover {
@@ -45,10 +46,10 @@ header .w3-dropdown-content a {
 	align-self:center;
 	background:none;
 }
-	header .w3-dropdown-content a:hover {
-		box-shadow: 2px 4px 15px 2px #333;
-		background-color: #3b8cde !important;
-	}
+header .w3-dropdown-content a:hover {
+	box-shadow: 2px 4px 15px 2px #333;
+	background-color: #3b8cde !important;
+}
 body {
 	background-color: #3b8cde;
 }
