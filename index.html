@@ -7,12 +7,13 @@
     <title>Expandí</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://kit.fontawesome.com/f2662730bb.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <!-- Sidebar -->
         <div class="w3-sidebar-4 w3-bar-block w3-animate-left" style="display:none;z-index:4" id="mySidebar">
-            <button class="w3-bar-item w3-button" onclick="w3_close()"></button>
+            <button class="w3-bar-item w3-button" onclick="w3_close()"><i class="fas fa-times"></i></button>
             <a href="#" class="w3-bar-item w3-button">Link 1</a>
             <a href="#" class="w3-bar-item w3-button">Link 2</a>
             <a href="#" class="w3-bar-item w3-button">Link 3</a>
@@ -21,7 +22,7 @@
         <!-- Overlay -->
         <div class="w3-overlay" onclick="w3_close()" style="cursor:pointer"></div>
         <!-- Page content -->
-        <button class="w3-button w3-large w3-hide-medium w3-hide-large" onclick="w3_open()">&#9776;</button>
+        <button class="w3-button w3-large w3-hide-medium w3-hide-large" onclick="w3_open()"><i class="fas fa-bars"></i></button>
         <div class="w3-center w3-border-1 w3-hide-small">
             <input class="w3-button w3-black" type="button" value="Boton1">
             <input class="w3-button w3-black" type="button" value="Boton2">
