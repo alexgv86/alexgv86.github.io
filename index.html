@@ -63,11 +63,11 @@
     <script>
         function w3_close() {
             $("#mySidebar").fadeOut(2000);
-            $(":header").fadeIn(1000);
+            $(":header").css("transform", "translateY(100%)");
         }
         function w3_open() {
             $("#mySidebar").fadeOut(1000);
-            $(":header").css("background-color", "#be5749");
+            $(":header").css("transform", "translateY(0)");
         }
     </script>
 </body>
