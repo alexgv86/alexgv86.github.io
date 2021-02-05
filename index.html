@@ -10,15 +10,14 @@
     <script src="https://kit.fontawesome.com/f2662730bb.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- Sidebar -->
+    <div class="w3-sidebar-4 w3-bar-block" style="display:none;z-index:4" id="mySidebar">
+        <button class="w3-bar-item w3-button" onclick="w3_close()"><i class="fas fa-times"></i></button>
+        <a href="#" class="w3-bar-item w3-button">Link 1</a>
+        <a href="#" class="w3-bar-item w3-button">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button">Link 3</a>
+    </div>
     <header>
-        <!-- Sidebar -->
-        <div class="w3-sidebar-4 w3-bar-block" style="display:none;z-index:4" id="mySidebar">
-            <button class="w3-bar-item w3-button" onclick="w3_close()"><i class="fas fa-times"></i></button>
-            <a href="#" class="w3-bar-item w3-button">Link 1</a>
-            <a href="#" class="w3-bar-item w3-button">Link 2</a>
-            <a href="#" class="w3-bar-item w3-button">Link 3</a>
-        </div>
-
         <!-- Overlay -->
         <!--<div class="w3-overlay" onclick="w3_close()" style="cursor:pointer"></div>-->
         <!-- Page content -->
@@ -49,7 +48,7 @@
                 <p>
                     En este sitio nos dedicamos a ampliar los horizontes de las personas, brindando
                     las herramientas necesarias para que sus negocios se vuelvan visibles al mundo.
-                <br />
+                    <br />
                     Adquiriendo nuevas herramientas y complementándolas con las redes sociales, usted
                     puede aportar confiabilidad, flexibilidad y agilidad a su negocio.
                 </p>
@@ -64,11 +63,11 @@
     <script>
         function w3_close() {
             $("#mySidebar").fadeOut(2000);
-            $(":header").css("background","none");
+            $(":header").fadeIn(1000);
         }
         function w3_open() {
-            $("#mySidebar").fadeIn(2000);
-            $(":header").css("background-color","#be5749");
+            $("#mySidebar").fadeOut(1000);
+            $(":header").css("background-color", "#be5749");
         }
     </script>
 </body>
