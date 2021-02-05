@@ -19,7 +19,7 @@ body .w3-sidebar-4 a:hover, body .w3-sidebar-4 button:hover {
 	box-shadow: 2px 4px 15px 2px #333;
 }
 
-body .w3-sidebar-4 button:hover > .fa-times:hover {
+body .w3-sidebar-4 button:hover > .fa-times {
 	color: #000;
 }
 
