@@ -14,15 +14,19 @@ header, footer {
 		color: #FFF;
 	}
 
-		header .w3-sidebar-4 a:focus {
+		header .w3-sidebar-4 a:hover, header .w3-sidebar-4 button:hover {
 			background-color: #be5749 !important;
 		}
 
-		header i .fa-times {
+		header .w3-sidebar-4 button:hover > .fa-times:hover {
+			color: #000;
+		}
+
+		header .fa-times {
 			color: #FFF;
 		}
 
-		header i .fa-bars {
+		header .fa-bars {
 			color: #000;
 		}
 
