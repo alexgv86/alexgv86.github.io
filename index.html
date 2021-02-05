@@ -62,12 +62,12 @@
     <!-- JS to open and close sidebar with overlay effect -->
     <script>
         function w3_close() {
-            $("#mySidebar").fadeOut(2000);
             $("header").fadeIn(1000);
+            setTimeout("$('#mySidebar').fadeOut(2000);",1000);
         }
         function w3_open() {
-            $("#mySidebar").fadeIn(2000);
             $("header").fadeOut(1000);
+            setTimeout("$('#mySidebar').fadeIn(2000);", 1000);
         }
     </script>
 </body>
