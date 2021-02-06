@@ -10,11 +10,13 @@ header {
 	position: fixed;
 	animation-duration: 1s;
 	animation-name: headerAbajo;
+	z-index:9;
 }
 
 .arriba {
 	animation-duration: 1s;
 	animation-name:headerArriba;
+	top:-100%;
 }
 
 @keyframes headerArriba{
