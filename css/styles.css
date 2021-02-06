@@ -12,9 +12,9 @@ header {
 	animation-name: headerAbajo;
 }
 
-.abajo {
+.arriba {
 	animation-duration: 1s;
-	animation-name:headerAbajo;
+	animation-name:headerArriba;
 }
 
 @keyframes headerArriba{
