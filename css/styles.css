@@ -3,10 +3,40 @@ header, footer {
 	box-shadow: 0px 0px 15px 2px #333;
 	padding: 5px;
 }
+
+header {
+	top: 0;
+	width: 100%;
+	position: fixed;
+	animation-duration: 1s;
+	animation-name: headerAbajo;
+}
+
+.abajo {
+	animation-duration: 1s;
+	animation-name:headerAbajo;
+}
+
+@keyframes headerArriba{
+	0% {top:0;}
+	100%{top: -100%;}
+}
+
+@keyframes headerArriba{
+	0% {top:0;}
+	100%{top: -100%;}
+}
+
+@keyframes headerAbajo{
+	0% {top:-100%;}
+	100%{top: 0;}
+}
+
 body .w3-sidebar-4 {
 	background-color: #be5749;
 	padding-left: 5px;
 	padding-right: 5px;
+	position: fixed;
 }
 
 body .w3-sidebar-4 a {
@@ -52,6 +82,10 @@ header .w3-dropdown-content a:hover {
 }
 body {
 	background-color: #3b8cde;
+}
+
+main{
+	margin-top:53px;
 }
 
 main .w3-container p {
