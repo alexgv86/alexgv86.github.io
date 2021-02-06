@@ -62,8 +62,8 @@
     <!-- JS to open and close sidebar with overlay effect -->
     <script>
         function w3_close() {
-            $('#mySidebar').toggleClass("abajo");
-            setTimeout("$('header').fadeIn(1000);",500);
+            $('#mySidebar').fadeOut(500);
+            setTimeout("$('header').toggleClass('abajo');",500);
         }
         function w3_open() {
             $("header").fadeOut(500);
