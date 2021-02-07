@@ -73,6 +73,7 @@ header .w3-dropdown-content {
 	color: #FFF;
 	padding-left: 5%;
 	padding-right: 5%;
+	animation-duration: 350ms;
 }
 header .w3-dropdown-content a {
 	align-self:center;
