@@ -64,12 +64,12 @@
     <!-- JS to open and close sidebar with overlay effect -->
     <script>
         function w3_close() {
-            $('#mySidebar').css("display", none);
+            $('#mySidebar').hide();
             setTimeout("$('header').removeClass('arriba');",500);
         }
         function w3_open() {
             $("header").toggleClass('arriba');
-            setTimeout("$('#mySidebar').css('display',inline);", 1000);
+            setTimeout("$('#mySidebar').show();", 1000);
         }
     </script>
 </body>
