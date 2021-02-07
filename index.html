@@ -64,7 +64,7 @@
     <!-- JS to open and close sidebar with overlay effect -->
     <script>
         function w3_close() {
-            $('#mySidebar').hide();
+            $('#mySidebar').fadeOut(500);
             setTimeout("$('header').removeClass('arriba');",500);
         }
         function w3_open() {
