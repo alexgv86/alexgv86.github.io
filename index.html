@@ -65,13 +65,13 @@
     <script>
         function w3_close() {
             //$('#mySidebar').fadeOut(500);
-            $('#mySidebar').toggleClass('arriba');
+            $('#mySidebar').toggleClass('abajo');
             setTimeout("$('header').removeClass('arriba');",500);
         }
         function w3_open() {
             $("header").toggleClass('arriba');
             //setTimeout("$('#mySidebar').show();", 1000);
-            setTimeout("$('#mySidebar').removeClass('arriba');", 1000);
+            setTimeout("$('#mySidebar').removeClass('abajo');", 1000);
         }
     </script>
 </body>
