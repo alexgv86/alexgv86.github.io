@@ -19,20 +19,14 @@ header {
 	top:-100%;
 }
 
-.abajo {
-	animation-duration: 1s;
-	animation-name: headerAbajo;
-	top: 0;
+body .w3-container .w3-center.abajo {
+	transition: all 1s ease;
+	transform: translateY(0);
 }
 
 @keyframes headerArriba{
 	0% {top:0;}
 	100%{top: -100%;}
-}
-
-@keyframes headerAbajo{
-	0% {top:-100%;}
-	100%{top: 0;}
 }
 
 body .w3-sidebar-4 {
@@ -65,8 +59,9 @@ body .fa-times {
 body .w3-container .w3-center {
 	width: 100%;
 	height: 100%;
-	top: -100%;
+	transform: translateY(100%);
 	left: 0;
+	transition: all 1s ease;
 }
 
 header .fa-bars {
