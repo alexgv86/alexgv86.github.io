@@ -96,11 +96,11 @@ header .w3-dropdown-content a {
 	align-self:center;
 	background:none;
 }
-	header .w3-dropdown-content a:hover {
-		box-shadow: 2px 4px 15px 2px #333;
-		/*background-color: #3b8cde !important;*/
-		background-color: #59FC9F !important;
-	}
+header .w3-dropdown-content a:hover {
+	box-shadow: 2px 4px 15px 2px #333;
+	/*background-color: #3b8cde !important;*/
+	background-color: #59FC9F !important;
+}
 body {
 	/*background-color: #3b8cde;*/
 	background-color: #59FC9F;
@@ -111,7 +111,7 @@ main{
 }
 
 main .w3-container p {
-	color: #FCF059;
+	color: #FFF;
 	padding: 5px;
 	text-align: center;
 }
