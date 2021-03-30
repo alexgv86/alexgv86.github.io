@@ -95,7 +95,7 @@ header .w3-dropdown-content a:hover {
 	box-shadow: 2px 4px 15px 2px #333;
 	background-color: #3b8cde !important;
 }
-body, header {
+body {
 	background-color: #3b8cde;
 }
 
