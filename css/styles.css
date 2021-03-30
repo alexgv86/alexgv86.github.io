@@ -57,11 +57,11 @@ body .w3-sidebar-4 a:hover, body .w3-sidebar-4 button:hover {
 }
 
 body .w3-sidebar-4 button:hover > .fa-times {
-	color: #FC59B7;
+	color: #000;
 }
 
 body .fa-times {
-	color: #FCF059;
+	color: #FFF;
 }
 
 body .w3-container .w3-center {
@@ -75,7 +75,7 @@ body .w3-container .w3-center {
 }
 
 header .fa-bars {
-	color: #FC59B7;
+	color: #FFF;
 }
 
 header .w3-button:hover {
