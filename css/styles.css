@@ -78,6 +78,10 @@ header .fa-bars {
 	color: #FFF;
 }
 
+header .fa-bars:hover {
+	color: #000;
+}
+
 header .w3-button:hover {
 	/*background-color: #3b8cde !important;*/
 	background-color: #59FC9F !important;
