@@ -15,6 +15,9 @@ header {
 	z-index: 2;
 }
 
+footer{
+	bottom:0;
+}
 /*.arriba {
 	animation-duration: 1s;
 	animation-name:headerArriba;
